@@ -31,6 +31,10 @@ module.exports.models = {
 
     migrate: 'safe',
 
-    autoPK: true
+    autoPK: true,
+
+    autoCreatedAt: false,
+
+    autoUpdatedAt: false
 
 };

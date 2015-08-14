@@ -7,6 +7,8 @@
 
 module.exports = {
 
+    tableName: 'user',
+
     attributes: {
 
         id: {
@@ -15,13 +17,15 @@ module.exports = {
             unique    : true
         },
 
-        name    : {
+        name: {
             type: 'string'
         },
+
         password: {
             type: 'string'
         },
-        email   : {
+
+        email: {
             type: 'string'
         }
 
